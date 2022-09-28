@@ -1,6 +1,6 @@
 import React  from 'react'
 
-export default function CardComponent(){
+export default function CardComponent({ totalPrice }){
     return(
         <div className="content center w-full mx-auto h-56 bg-white-200 mt-20 rounded">
             <div className="flex justify-between items-center h-40 mr-10 bg-gray-100 w-full">
@@ -14,7 +14,7 @@ export default function CardComponent(){
                 <div className='flex flex-col pr-20 font-semibold'>
                   <div>Ukupno: 0000</div>
                   <div>Troskovi Isporuke : 0000</div>
-                  <div className='text-2xl'>Ukupan iznos: 0000</div>
+                  <div className='text-2xl'>Ukupan iznos: {totalPrice}</div>
                 </div>
             </div>
             <div className='flex justify-end mt-2 mr-2'>

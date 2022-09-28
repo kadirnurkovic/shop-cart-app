@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 14 Pro",
+      "price": 1500,
+      "imgUrl": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/c/z/czcs_iphone14pro_q422_silver_pdp-images_position-1a_t_1_4_4.jpg",
+      "currency": "EUR"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 14 Pro Max",
+      "price": 2000,
+      "imgUrl": "https://istyle.rs/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/c/z/czcs_iphone14promax_q422_space-black_pdp-images_position-1a_t_4_7.jpg",
+      "currency": "EUR"
+    },
+    {
+      "id": 3,
+      "name": "Macbook Pro 14 M1 Pro 16GB/512GB",
+      "price": 2200,
+      "imgUrl": "https://istyle.hu/media/wysiwyg/HU/landing-pages/preselection/mbp-14-sv.jpeg",
+      "currency": "EUR"
+    },
+    {
+      "id": 4,
+      "name": "Macbook Pro 16 M1 Pro 16GB/1TB",
+      "price": 3200,
+      "imgUrl": "https://istyle.hu/media/wysiwyg/HU/landing-pages/preselection/mbp-16-sg.jpeg",
+      "currency": "EUR"
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Ultra",
+      "price": 1100,
+      "imgUrl": "https://istyle.rs/pub/media/catalog/product/cache/image/400x400/beff4985b56e3afdbeabfc89641a4582/c/z/czcs_watchultra_cellular_q422_49mm_titanium_yellow_ocean_band_pdp_image_position-1_t_2_1.jpg",
+      "currency": "EUR"
+    }
+  ]

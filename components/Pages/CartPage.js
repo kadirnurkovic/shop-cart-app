@@ -67,7 +67,7 @@ export default function CartPage({ totalAmount }) {
               <button onClick={() => removeFromCart(product.id)}>X</button>
             </div>
           ))}
-          <CardComponent totalPrice={cartItems.reduce((prev, curr) => (prev.price = curr.price * curr.quantity))
+          <CardComponent totalPrice={cartItems.map((item) => item.quantity * item.price).reduce((prev, curr) => (prev += curr))
           }></CardComponent>
         </div>
       )}

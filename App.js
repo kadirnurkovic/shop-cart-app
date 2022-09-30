@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar/Navbar";
 import AboutPage from "./components/Pages/AboutPage";
 import CartPage from "./components/Pages/CartPage";
 import HomePage from "./components/Pages/HomePage";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cart" element={<CartPage />} />
       </Routes>
+     <Footer />
     </div>
   );
 }

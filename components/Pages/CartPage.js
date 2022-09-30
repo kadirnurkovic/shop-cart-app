@@ -12,7 +12,7 @@ export default function CartPage({ totalAmount }) {
   return (
     <>
       {cartItems.length === 0 ? (
-        <div className="m-auto my-24 w-4/12 flex flex-col items-center gap-8">
+        <div className="m-auto my-24 w-4/12 flex h-full flex-col items-center gap-8 min-h-screen">
           {/* <img
             src={require("../../../images/cart_empty.png")}
             alt="Logo"
